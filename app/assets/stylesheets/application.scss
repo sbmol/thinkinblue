@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ @import 'bootstrap/scss/bootstrap';
+
+
+ .brand-size {
+     width: 10rem;
+     height: 10rem;
+     position: fixed;
+     padding: 0;
+ }

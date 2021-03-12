@@ -7,9 +7,20 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'stylish-portfolio.min' %>
+    <%= stylesheet_link_tag 'bootstrap.min' %>
+    <%= stylesheet_link_tag 'simple-line-icons.css' %>
+    <%= stylesheet_link_tag 'all.min.css' %>
+    <%= stylesheet_link_tag 'styles' %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
   </head>
 
+
   <body>
+  <%= render 'partials/navbar' %>
     <%= yield %>
   </body>
 </html>
