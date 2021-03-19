@@ -3,6 +3,7 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 import 'bootstrap'
+import "@fortawesome/fontawesome-free/css/all.css";
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
@@ -13,6 +14,8 @@ require("packs/bootstrap.bundle.min.js")
 require("packs/stylish-portfolio.min.js")
 require("packs/style.js")
 require("typeface-lato")
+require("@fortawesome/fontawesome-free");
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

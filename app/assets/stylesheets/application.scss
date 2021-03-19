@@ -14,11 +14,25 @@
  *= require_self
  */
  @import 'bootstrap/scss/bootstrap';
+ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/v4-shims';
 
 
  .brand-size {
-     width: 10rem;
-     height: 10rem;
+     width: 7rem;
+     height: 7rem;
      position: fixed;
      padding: 0;
  }
+ 
+ .masthead-img {
+    background: url(webbackground.jpg) no-repeat 50% 50%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed; 
+ }
+ 

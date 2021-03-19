@@ -9,12 +9,7 @@ body {
     font-weight: white;
 }
 
-header {
-    width: 100%;
-    height: 100vh;
-    background: url(webbackground.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
+
 
 .content {
     width: 94%;
@@ -23,12 +18,18 @@ header {
     line-height: 30px;
     text-align: justify;
 }
+.content-cover {
+    background: url(webbackground.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 
 .logo {
     line-height: 60px;
     position: fixed;
     float: left;
-    margin: 16px 46px;
+    margin: 1px 46px;
     color: #fff;
     font-weight: bold;
     font-size: 20px;
@@ -55,8 +56,8 @@ nav ul {
 }
 
 nav.black ul {
-    /*background:#34363d;*/ /*color de fondo*/
-    background: none;
+    background:#34363d;
+    
 }
 
 nav ul li {
