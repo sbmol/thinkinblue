@@ -35,4 +35,39 @@
     background-size: cover;
     background-attachment: fixed; 
  }
- 
+
+ .margin-div{
+     padding-top: 10em;
+     padding-bottom: 5em;
+ }
+
+ .img-carousel-custom {
+     width: 35em;
+     height: 25em;
+ }
+ .logo {
+     width: 8rem;
+     height: 8rem;
+ }
+
+ .bg-custom-web {
+     background-image: url('webbackground.jpg');
+     no-repeat: 50% 50%;
+     background-size: cover;
+     background-attachment: fixed;     
+ }
+
+ .shadow{
+     text-shadow: 0 1px 0  black;
+     
+
+ }
+ .masthead-logo {
+     width: 25rem;
+     height: 25rem;
+ }
+ .img-style {
+
+    width: 80%;
+    height: 80%;
+ }

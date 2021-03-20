@@ -1,65 +1,49 @@
-<div class="container-fluid masthead-img">
-<header class="masthead-img d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1"><strong>Think in Blue</strong></h1>
-      <h3 class="mb-5">
-        <em>Create, design, intelligent & amazing content for your bussines.</em>
-      </h3>
-      <a class="btn btn-light btn-xxl js-scroll-trigger" href="#about">Find Out More</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
+<header class="masthead bg-custom-web text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <%= image_tag 'logoblanco.png', class:"masthead-logo" %>
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0 text-black"><span class="shadow">Intelligent, creative & intuitive graphics services.</span> </h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0 shadow">Graphic Artist - Web Designer - Photografer</p>
+            </div>
+  
+</header>
+<!-- Portfolio Section-->
+        <section class="page-section portfolio bg-info" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                  
+                   <div class="col-md-6 col-lg-4 mb-5">
+                   <%= image_tag 'Fotos _Family.jpg', class:"img-style rounded"%>
 
-</div>
-
-<section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-        
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="fad fa-plane">Airplane</i>
-          
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+                   </div>
+                   <div class="col-md-6 col-lg-4 mb-5">
+                   <%= image_tag 'Portada Eventos.jpg', class:"img-style rounded" %>
+                   </div>
+                   <div class="col-md-6 col-lg-4 mb-5">
+                   <%= image_tag 'Fotos_Portrait.jpg', class:"img-style rounded" %>
+                   
+                   </div>
+                   
+                    
+                   
+                </div>
+            </div>
+        </section>
